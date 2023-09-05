@@ -1,0 +1,175 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    background-color: #A9784F;
+}
+
+.Card {
+    width: 400px;
+    overflow: hidden;
+    -webkit-box-shadow: 8px 8px 71px 4px #856041;
+-moz-box-shadow: 8px 8px 71px 4px #856041;
+box-shadow: 8px 8px 71px 4px #856041;
+}
+
+.Parte_de_cima {
+    width: 400px;
+    height: 282px;
+    background-color: #919974;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Curva {
+    margin: -50px 0px 0px 0px;
+    bottom: 0;
+    position: relative;
+}
+
+.Curva2 {
+    width: 100%;
+    margin: -70px 0px 0px -100px;
+}
+
+.Curva2 svg {
+    width: 130%;
+}
+
+.Parte_de_baixo {
+    width: 400px;
+    height: 530px;
+    background-color: #EAEDE8;
+    margin-top: -78px;
+}
+
+.Nome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.Nome img{
+    width: 300px;
+}
+
+.Texto_Sobre_Mim {
+    font-family: 'Quicksand', sans-serif;
+    width: 75%;
+    margin: auto;
+}
+
+.Foto {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 6px solid #F5E7CC;
+    background-color: #F5E7CC;
+    overflow: hidden;
+}
+
+.Foto img{
+    width: 185px;
+    margin: 30px 0px 0px -5px;
+}
+
+.Botoes {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.Botao {
+    width: 55px;
+    height: 55px;
+    background-color: #7C8046;
+    border-radius: 30px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Botao img {
+    width: 37px;
+}
+
+.Botao .Rede_Social {
+    width: 30px;
+}
+
+.Botao:hover {
+    width: 60px;
+    height: 60px;
+    background-color: #919974;
+    border-radius: 30px 0px 30px 0px;
+    cursor: pointer;
+}
+
+.Botao img:hover {
+    width: 45px;
+}
+
+.Botao .Rede_Social:hover {
+    width: 38px;
+}
+
+.Botao_WhatsApp {
+    width: 300px;
+    height: 55px;
+    background-color: #7C8046;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    align-items: center;
+    border-radius: 30px 0px 30px 0px;
+    position: absolute;
+}
+
+.Botao_WhatsApp img {
+    width: 40px;
+    margin-left: 70px;
+}
+
+.Botao_WhatsApp p {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 19px;
+    margin: auto;
+    margin-right: 75px;
+    font-weight: 500;
+}
+
+.Botao_WhatsApp:hover {
+    width: 305px;
+    height: 60px;
+    background-color: #7C8046;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    align-items: center;
+    border-radius: 30px 0px 30px 0px;
+    cursor: pointer;
+    background-color: #919974;
+}
+
+.Botao_WhatsApp img:hover {
+    width: 45px;
+    margin-left: 75px;
+}
+
+.Botao_WhatsApp p:hover {
+    font-size: 22px;
+}
+
+.Rodape {
+    width: 100%;
+    height: 100%;
+    background-color: #BFC49D;
+    overflow: hidden;
+}
