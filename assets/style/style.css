@@ -3,15 +3,15 @@ body {
     justify-content: center;
     align-items: center;
     margin: 80px;
-    background-color: #A9784F;
+    background-color: #E3E0C5;
 }
 
 .Card {
     width: 400px;
     overflow: hidden;
-    -webkit-box-shadow: 8px 8px 71px 4px #856041;
--moz-box-shadow: 8px 8px 71px 4px #856041;
-box-shadow: 8px 8px 71px 4px #856041;
+    -webkit-box-shadow: 8px 8px 71px 4px #C8C6AE;
+-moz-box-shadow: 8px 8px 71px 4px #C8C6AE;
+box-shadow: 8px 8px 71px 4px #C8C6AE;
 }
 
 .Parte_de_cima {
